@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Philosopher&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="CSS/reset.css">
+        <link rel="stylesheet" href="CSS/bases.css">
+        <title>AluraComfy - Agregar Producto</title>
+        <link rel="icon" href="Imagenes/percha.png" type="image/png">
+    </head>
+
+    <body>
+        
+        <!-- Seccion encabezado -->
+        <section class="encabezado">
+            <header class="encabezado__logo">
+                <img class="logo__aluraComfy" src="Imagenes/Logo__AluraComfy.png" alt="logo de alura comfy">
+            </header>
+            <nav>
+                <form class="barra__busqueda" action="/search" method="get">
+                    <input type="text" id="busqueda" name="q" placeholder="¿ Qué deseas buscar ?">
+                    <button type="submit"><img src="Imagenes/IconoLupa.png" alt="Icono de lupa"></button>
+                </form>
+                <button class="boton__login"><link rel="stylesheet" href="login.html">Menú Administrador</button>
+            </nav>
+        </section>
+
+        <!-- Form agregar producto -->
+        <section class="form__agregar">
+            <h1 class="form__agregar--titulo">Agregar nuevo producto</h1>
+
+            <form class="form__agregar" name="form">
+                <span class="form__agregar--spans">
+                    <label for="url" class="form__agregar--label">URL de la imagen</label>
+                    <input type="url" class="form__agregar--urlImagen" name="url" required placeholder=".../.../.../">
+                </span>
+
+                <span class="form__agregar--spans">
+                    <label for="categoria" class="form__agregar--label">Categoría</label>
+                    <input type="text" class="form__agregar--categoria" name="categoria" required placeholder="Remera Nombre">
+                </span>
+
+                <span class="form__agregar--spans">
+                    <label for="nombreProduct" class="form__agregar--label">Nombre del producto</label>
+                    <input type="text" class="form__agregar--nombre" name="nombreProduct" required placeholder="Remeras">
+                </span>
+
+                <span class="form__agregar--spans">
+                    <label for="precio" class="form__agregar--label">Precio del producto</label>
+                    <input type="number" class="form__agregar--precio" placeholder="$000,00" name="precio" required>
+                </span>
+
+                <textarea name="textarea" id="" cols="30" rows="10" class="input__form--descripcion" placeholder="Descripción del producto" required></textarea>
+                <button class="form__agregar--boton">Agregar producto</button>
+            </form>
+        </section>
+
+        <!-- Seccion contactos + links -->
+
+        <!-- Contacto -->
+        <section class="contactoLinks">
+            <section class="contacto">
+                <h2 class="contacto__titulo">Hable con nosotros</h2>
+                <form name="form" class="contacto__form">
+                    <label for="nombre" class="contacto__nombre--label">Nombre</label>
+                    <input type="text" class="contacto__nombre" name="nombre" placeholder="Andrés Lisboa" required>
+                    <textarea name="" id="" cols="40" rows="5" class="contacto__mensaje" placeholder="Escribe tu mensaje" required></textarea>
+                    <button class="contacto__boton">Enviar mensaje</button>
+                </form>
+            </section>
+    
+            <!-- Links final -->
+            <section class="links">
+                <img src="Imagenes/Logo__AluraComfy.png" alt="logo de alura comfy" class="links--img">
+                <div class="contenedor__links">
+                    <p class="links">Quienes somos</p>
+                    <p class="links">Política de privacidad</p>
+                    <p class="links">Programa de fidelidad</p>
+                    <p class="links">Nuestras Tiendas</p>
+                    <p class="links">Quiero ser franquiciado</p>
+                    <p class="links">Anuncie aquí</p>
+                </div>
+                
+            </section>
+        </section>
+        
+        <!-- Footer -->
+        <section class="footer">
+            <div class="footer__div">
+                <img src="" alt="icono de copyright" class="footer__img">
+                <p class="footer__descripcion">Desarrollado por Valentina Angeletti</p>
+            </div>
+            <p class="footer__anho">2023</p>
+        </section>
+    </body>
+
+</html>
