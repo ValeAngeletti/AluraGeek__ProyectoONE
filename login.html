@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Philosopher&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="CSS/reset.css">
+        <link rel="stylesheet" href="CSS/bases.css">
+        <title>AluraComfy - Login</title>
+        <link rel="icon" href="Imagenes/percha.png" type="image/png">
+
+    </head>
+
+    <body>
+        <!-- Encabezado -->
+
+        <section class="encabezado">
+            <header class="encabezado__logo">
+                <img class="logo__aluraComfy" src="Imagenes/Logo__AluraComfy.png" alt="logo de alura comfy">
+            </header>
+            <nav>
+                <form class="barra__busqueda" action="/search" method="get">
+                    <input type="text" id="busqueda" name="q" placeholder="¿ Qué deseas buscar ?">
+                    <button type="submit"><img src="Imagenes/IconoLupa.png" alt="Icono de lupa"></button>
+                </form>
+            </nav>
+        </section>
+
+        <!-- Inicio de sesion -->
+        <section class="form__login">
+            <h2 class="form__login--titulo">Iniciar Sesión</h2>
+            <form action="" class="form__login">
+                <input type="email" class="form__login--correo" placeholder="Escriba su correo electrónico" required>
+                <input type="password" class="form__login--pass" placeholder="Escriba su contraseña" required>
+                <button class="form__login--bootn">Entrar</button>
+            </form>
+        </section>
+
+        <!-- Seccion contactos + links -->
+
+        <!-- Contacto -->
+        <section class="contactoLinks">
+            <section class="contacto">
+                <h2 class="contacto__titulo">Hable con nosotros</h2>
+                <form name="form" class="contacto__form">
+                    <label for="nombre" class="contacto__nombre--label">Nombre</label>
+                    <input type="text" class="contacto__nombre" name="nombre" placeholder="Andrés Lisboa" required>
+                    <textarea name="" id="" cols="40" rows="5" class="contacto__mensaje" placeholder="Escribe tu mensaje" required></textarea>
+                    <button class="contacto__boton">Enviar mensaje</button>
+                </form>
+            </section>
+    
+            <!-- Links final -->
+            <section class="links">
+                <img src="Imagenes/Logo__AluraComfy.png" alt="logo de alura comfy" class="links--img">
+                <div class="contenedor__links">
+                    <p class="links">Quienes somos</p>
+                    <p class="links">Política de privacidad</p>
+                    <p class="links">Programa de fidelidad</p>
+                    <p class="links">Nuestras Tiendas</p>
+                    <p class="links">Quiero ser franquiciado</p>
+                    <p class="links">Anuncie aquí</p>
+                </div>
+                
+            </section>
+        </section>
+        
+        <!-- Footer -->
+        <section class="footer">
+            <div class="footer__div">
+                <img src="" alt="icono de copyright" class="footer__img">
+                <p class="footer__descripcion">Desarrollado por Valentina Angeletti</p>
+            </div>
+            <p class="footer__anho">2023</p>
+        </section>
+    </body>
+</html>
