@@ -1,0 +1,36 @@
+.encabezado{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem;
+}
+
+.encabezado__logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    position: relative;
+}
+
+.logo__aluraComfy{
+    width: 7rem;
+    position: absolute;
+    z-index: -1;
+}
+
+.encabezado__logo--titulo2, .encabezado__logo--titulo{
+    font-weight: bold;
+    font-size: 2rem;
+    width: 100%;
+}
+
+.encabezado__logo--titulo{
+    color: var(--naranja--central);
+}
+
+.encabezado__logo--titulo2{
+    color: var(--color--barraBusqueda);
+}
+
+

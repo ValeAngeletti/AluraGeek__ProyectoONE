@@ -11,8 +11,12 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Philosopher&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="CSS/reset.css">
         <link rel="stylesheet" href="CSS/bases.css">
+        <link rel="stylesheet" href="CSS/encabezado/barraBusqueda.css">
+        <link rel="stylesheet" href="CSS/encabezado/btnLogin.css">
+        <link rel="stylesheet" href="CSS/encabezado/logo.css">
+        <link rel="stylesheet" href="CSS/pruebas.css">
         <title>AluraComfy</title>
-        <link rel="icon" href="Imagenes/percha.png" type="image/png">
+        <link rel="icon" href="Imagenes/perchaVerde.png" type="image/png">
     </head>
 
     <body>
@@ -20,15 +24,17 @@
         <!-- Seccion encabezado -->
         <section class="encabezado">
             <header class="encabezado__logo">
-                <img class="logo__aluraComfy" src="Imagenes/Logo__AluraComfy.png" alt="logo de alura comfy">
+                <h1 class="encabezado__logo--titulo"><span class="resaltar">Alura</span></h1>
+                <h1 class="encabezado__logo--titulo2"><span class="resaltar">Comfy</span></h1>
+                <img class="logo__aluraComfy" src="Imagenes/percha.png" alt="icono de percha negra">
             </header>
-            <nav>
+            <nav class="encabezado__nav">
                 <form class="barra__busqueda" action="/search" method="get">
                     <input type="text" id="busqueda" name="q" placeholder="¿ Qué deseas buscar ?">
-                    <button type="submit"><img src="Imagenes/IconoLupa.png" alt="Icono de lupa"></button>
+                    <button type="submit" class="busqueda__boton"><img class="busqueda__boton--img" src="Imagenes/lupaNaranja.png" alt="Icono de lupa"></button>
                 </form>
-                <button class="boton__login"><link rel="stylesheet" href="login.html">Login</button>
             </nav>
+            <button class="boton__login"><link rel="stylesheet" href="login.html">Login</button>
         </section>
 
         <!-- Seccion Banner -->
@@ -41,7 +47,16 @@
                 <img src="Imagenes/Modelos/Jean_CorsetNegro.jpg" alt="" class="banner__img">
                 <img src="Imagenes/Modelos/TopRosa.jpg" alt="" class="banner__img">
             </div>
-            <button class="banner__boton">Ver Remeras</button>
+            <button class="banner__boton">Ver Remeras</button> 
+        <svg class="ondas" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ff5500" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,218.7C384,213,480,235,576,256C672,277,768,299,864,277.3C960,256,1056,192,1152,170.7C1248,149,1344,171,1392,181.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+        </section>
+
+        <!-- Seccion Frase-->
+        <section class="frase">
+
+            <div class="frase__div">
+                <p class="frase__texto">Ten la libertad de usar lo que te haga sentir única</p>
+            </div>
         </section>
 
         <!-- Seccion categorias -->
@@ -267,12 +282,14 @@
         <section class="links">
             <img src="Imagenes/Logo__AluraComfy.png" alt="logo de alura comfy" class="links--img">
             <div class="contenedor__links">
-                <p class="links">Quienes somos</p>
-                <p class="links">Política de privacidad</p>
-                <p class="links">Programa de fidelidad</p>
-                <p class="links">Nuestras Tiendas</p>
-                <p class="links">Quiero ser franquiciado</p>
-                <p class="links">Anuncie aquí</p>
+                <ul class="lista__links">
+                    <li class="lista__links--items"><a href="#">Quienes somos</a></li>
+                    <li class="lista__links--items"><a href="#">Política de privacidad</a></li>
+                    <li class="lista__links--items"><a href="#">Programa de fidelidad</a></li>
+                    <li class="lista__links--items"><a href="#">Nuestras Tiendas</a></li>
+                    <li class="lista__links--items"><a href="#">Quiero ser franquiciado</a></li>
+                    <li class="lista__links--items"><a href="#">Anuncie aquí</a></li>
+                </ul>
             </div>
             
         </section>

@@ -1,0 +1,39 @@
+.encabezado__nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.barra__busqueda{
+    display: flex;
+    background-color: var(--color--barraBusqueda);
+    padding: 0.5rem 0.8rem;
+    border-radius: 2rem;
+
+}
+
+#busqueda{
+    padding: 1rem;
+    padding-right: 7rem;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1rem;
+    background-color:var(--color--barraBusqueda);
+
+}
+
+#busqueda:focus{
+    outline: none;
+}
+
+.busqueda__boton{
+    border: none;
+    padding: 0.8rem;
+    border-radius: 50%;
+    background-color: var(--fondo--btns-nav);
+
+}
+
+.busqueda__boton:hover{
+    box-shadow: 5px 10px 50px black;
+    background-color: var(--color--fondo);
+}

@@ -1,0 +1,28 @@
+:root{
+    --color--fondo: #82B577;
+    --color--barraBusqueda: #CDFFC2;
+    --fondo--btns-nav:#21331D;
+    --naranja--central:#FF8939;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    box-sizing: border-box;
+    background-color: var(--color--fondo) ;
+    font-family: 'Philosopher';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 1.2rem;
+}
+
+ol, ul,li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
