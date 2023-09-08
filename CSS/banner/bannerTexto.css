@@ -1,0 +1,78 @@
+.banner__texto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    text-align: center;
+    z-index: 1; /* Coloca el texto encima de las imágenes */
+}
+
+.banner__titulo{
+    margin-bottom: 10rem;
+    font-size: 5rem;
+    color: var(--naranja--central)
+}
+
+.banner__subtitulo{
+    font-size: 1.5rem;
+    flex-wrap: nowrap;
+    background-color: #cdffc267;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.banner__boton{
+    font-size: 1.5rem;
+    font-family: "Philosopher";
+    margin-top: 2rem;
+    padding: 0.8rem;
+    background-color: var(--naranja--central);
+    border: none;
+    border-radius: 40rem;
+    font-weight: bold;
+    color: var(--fondo--btns-nav);
+}
+
+.banner__boton:hover{
+    background:#A2E094;
+    color: var(--fondo--btns-nav);
+    box-shadow: 5px 0px 30px white;
+
+}
+
+/*--------efecto boton ----------*/
+.swing:hover{
+    animation-name: swing;
+        -webkit-animation-name: swing;
+        -moz-animation-name: swing;
+    animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+}
+
+@keyframes swing {
+    20% {transform: rotate3d(0, 0, 1, 15deg);}
+    40% {transform: rotate3d(0, 0, 1, -10deg);}
+    60% {transform: rotate3d(0, 0, 1, 5deg);}
+    80% {transform: rotate3d(0, 0, 1, -5deg);}
+    to  {transform: rotate3d(0, 0, 1, 0deg);}
+}
+
+/* --------- efecto subtitulo -------*/
+.pulse {
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.pulse:hover{
+    background-color: var(--naranja--central);
+}
+  
+@keyframes pulse {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.2);}
+    100% {transform: scale(1);}
+}
+
+

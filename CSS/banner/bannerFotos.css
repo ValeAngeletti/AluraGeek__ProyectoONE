@@ -1,0 +1,36 @@
+.banner {
+    position: relative;
+    overflow: hidden;
+}
+
+.banner__fotos {
+    display: flex;
+    white-space: nowrap; /* Evita el espacio en blanco entre imágenes */
+    animation: translate-carousel 16s linear infinite;
+    width: 20rem;
+}
+
+.banner__img {
+    width: 100%; /* Ajusta el ancho de cada imagen al 100% del contenedor */
+    height: auto;
+    filter: brightness(0.4);
+}
+
+@keyframes translate-carousel {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+
+
+
+
+
+
+
+

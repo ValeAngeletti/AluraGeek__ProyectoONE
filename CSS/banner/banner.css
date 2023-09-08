@@ -1,0 +1,12 @@
+.banner {
+    background-color: var(--color--fondo);
+    display: flex;
+    flex-direction: column;
+    margin-top:2rem;
+}
+
+.ondas{
+    padding: 0;
+    margin: 0 auto;
+    display: block;
+}

@@ -1,15 +1,10 @@
 .frase{
-    background-color: #ff5500;
+    background-color: var(--naranja--central);
 }
 
-.banner {
-    background-color: #0074D9;
-}
 
-.ondas{
-    padding: 0;
-    margin: 0 auto;
-    display: block;
-}
 
-/* Cambiar color de la onda */
+/* Cambiar color de la onda */           
+              
+
+              
