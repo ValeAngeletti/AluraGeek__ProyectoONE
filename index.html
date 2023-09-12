@@ -20,13 +20,14 @@
         <link rel="stylesheet" href="CSS/banner/bannerTexto.css">
         <link rel="stylesheet" href="CSS/frase.css">
         <link rel="stylesheet" href="CSS/galeria/galeriaPrincipal.css">
-        <link rel="stylesheet" href="CSS/galeria/accesorios/accesorios.css">
-        <link rel="stylesheet" href="CSS/galeria/accesorios/accesGaleria.css">
-        <link rel="stylesheet" href="CSS/galeria/accesorios/accesBotones.css">
-        <link rel="stylesheet" href="CSS/galeria/accesorios/accesTextos.css">
-        <link rel="stylesheet" href="CSS/galeria/remeras.css">
-        <link rel="stylesheet" href="CSS/galeria/pantalones.css">
-        <link rel="stylesheet" href="CSS/galeria/zapatos.css">
+        <link rel="stylesheet" href="CSS/galeria/acces-y-pantal/acces-y-pant.css">
+        <link rel="stylesheet" href="CSS/galeria/acces-y-pantal/acces-y-pant-Galeria.css">
+        <link rel="stylesheet" href="CSS/galeria/acces-y-pantal/acces-y-pant-Textos.css">
+        <link rel="stylesheet" href="CSS/galeria/acces-y-pantal/acces-y-pant-Botones.css">
+        <link rel="stylesheet" href="CSS/galeria/rem-y-zap/rem-y-zap.css">
+        <link rel="stylesheet" href="CSS/galeria/rem-y-zap/rem-y-zap-Galeria.css">
+        <link rel="stylesheet" href="CSS/galeria/rem-y-zap/rem-y-zap-Textos.css">
+        <link rel="stylesheet" href="CSS/galeria/rem-y-zap/rem-y-zap-Botones.css">
         <title>AluraComfy</title>
         <link rel="icon" href="Imagenes/perchaVerde.png" type="image/png">
     </head>
@@ -135,153 +136,164 @@
             <!-- Seccion Remeras-->
             <section class="remeras" id="remeras">
                 <h2 class="remeras__titulo">Remeras</h2>
-                <section class="remeras__galeria">
+                <section class="carrusel">
+                    <button class="carrusel__flecha carrusel__flecha--izquierda">◄</button>
+                    <section class="remeras__galeria">
 
-                    <div class="remeras__producto--div">
-                        <img src="Imagenes/Remeras/MuscuBeige.png" alt="musculosa de lanilla color beige" class="remeras__producto--img">
-                        <h3 class="remeras__producto--titulo">Musculosa Ximena</h3>
-                        <h4 class="remeras__producto--precio">$000,00</h4>
-                        <button class="remeras__producto--boton">Ver Producto</button>
-                    </div>
-
-                    <div class="remeras__producto--div">
-                        <img src="Imagenes/Remeras/CorsetRosa.png" alt="corset color rosa" class="remeras__producto--img">
-                        <h3 class="remeras__producto--titulo">Corset Medusa</h3>
-                        <h4 class="remeras__producto--precio">$000,00</h4>
-                        <button class="remeras__producto--boton">Ver Producto</button>
-                    </div>
-
-                    <div class="remeras__producto--div">
-                        <img src="Imagenes/Remeras/MuscuBlanca.png" alt="musculosa color blanco" class="remeras__producto--img">
-                        <h3 class="remeras__producto--titulo">Musculosa Lena</h3>
-                        <h4 class="remeras__producto--precio">$000,00</h4>
-                        <button class="remeras__producto--boton">Ver Producto</button>
-                    </div>
-
-                    <div class="remeras__producto--div">
-                        <img src="Imagenes/Remeras/RemeraAzul.png" alt="remera mangas largas color azul " class="remeras__producto--img">
-                        <h3 class="remeras__producto--titulo">Blusa Crop Crystal</h3>
-                        <h4 class="remeras__producto--precio">$000,00</h4>
-                        <button class="remeras__producto--boton">Ver Producto</button>
-                    </div>
-
-                    <div class="remeras__producto--div">
-                        <img src="Imagenes/Remeras/RemeraVerde.png" alt="remera verde oscuro con tiras" class="remeras__producto--img">
-                        <h3 class="remeras__producto--titulo">Remera Knot</h3>
-                        <h4 class="remeras__producto--precio">$000,00</h4>
-                        <button class="remeras__producto--boton">Ver Producto</button>
-                    </div>
-
-                    <div class="remeras__producto--div">
-                        <img src="Imagenes/Remeras/RemeraNegra.png" alt="remera negra corta" class="remeras__producto--img">
-                        <h3 class="remeras__producto--titulo">Remera Mock-Neck</h3>
-                        <h4 class="remeras__producto--precio">$000,00</h4>
-                        <button class="remeras__producto--boton">Ver Producto</button>
-                    </div>
-
-                </section class="remeras__galeria">
+                        <div class="remeras__producto--div">
+                            <img src="Imagenes/Remeras/MuscuBeige.png" alt="musculosa de lanilla color beige" class="remeras__producto--img">
+                            <h3 class="remeras__producto--titulo">Musculosa Ximena</h3>
+                            <h4 class="remeras__producto--precio">$000,00</h4>
+                            <button class="remeras__producto--boton">Ver Producto</button>
+                        </div>
+    
+                        <div class="remeras__producto--div">
+                            <img src="Imagenes/Remeras/CorsetRosa.png" alt="corset color rosa" class="remeras__producto--img">
+                            <h3 class="remeras__producto--titulo">Corset Medusa</h3>
+                            <h4 class="remeras__producto--precio">$000,00</h4>
+                            <button class="remeras__producto--boton">Ver Producto</button>
+                        </div>
+    
+                        <div class="remeras__producto--div">
+                            <img src="Imagenes/Remeras/MuscuBlanca.png" alt="musculosa color blanco" class="remeras__producto--img">
+                            <h3 class="remeras__producto--titulo">Musculosa Lena</h3>
+                            <h4 class="remeras__producto--precio">$000,00</h4>
+                            <button class="remeras__producto--boton">Ver Producto</button>
+                        </div>
+    
+                        <div class="remeras__producto--div">
+                            <img src="Imagenes/Remeras/RemeraAzul.png" alt="remera mangas largas color azul " class="remeras__producto--img">
+                            <h3 class="remeras__producto--titulo">Blusa Crop Crystal</h3>
+                            <h4 class="remeras__producto--precio">$000,00</h4>
+                            <button class="remeras__producto--boton">Ver Producto</button>
+                        </div>
+    
+                        <div class="remeras__producto--div">
+                            <img src="Imagenes/Remeras/RemeraVerde.png" alt="remera verde oscuro con tiras" class="remeras__producto--img">
+                            <h3 class="remeras__producto--titulo">Remera Knot</h3>
+                            <h4 class="remeras__producto--precio">$000,00</h4>
+                            <button class="remeras__producto--boton">Ver Producto</button>
+                        </div>
+    
+                        <div class="remeras__producto--div">
+                            <img src="Imagenes/Remeras/RemeraNegra.png" alt="remera negra corta" class="remeras__producto--img">
+                            <h3 class="remeras__producto--titulo">Remera Mock-Neck</h3>
+                            <h4 class="remeras__producto--precio">$000,00</h4>
+                            <button class="remeras__producto--boton">Ver Producto</button>
+                        </div>
+                    </section class="remeras__galeria">
+                    <button class="carrusel__flecha carrusel__flecha--derecha">►</button>
+                </section>
+                
             </section>
 
             <!-- Seccion Pantalones-->
             <section class="pantalones">
                 <h2 class="pantalones__titulo"></h2>
+                <section class="carrusel">
+                    <button class="carrusel__flecha carrusel__flecha--izquierda">◄</button>
+                    <section class="pantalones__galeria">
 
-                <section class="pantalones__galeria">
-
-                    <div class="pantalones__producto--div">
-                        <img src="Imagenes/Pantalones/CargoNegro.png" alt="pantalón cargo negro con costuras blancas" class="pantalones__producto--img">
-                        <h3 class="pantalones__producto--titulo">Jean Cargo Phillip</h3>
-                        <h4 class="pantalones__producto--precio">$000,00</h4>
-                        <button class="pantalones__producto--boton">Ver Producto</button>
-                    </div>
-
-                    <div class="pantalones__producto--div">
-                        <img src="Imagenes/Pantalones/JeanOxford.png" alt="jean oxford color azul oscuro" class="pantalones__producto--img">
-                        <h3 class="pantalones__producto--titulo">Oxford London</h3>
-                        <h4 class="pantalones__producto--precio">$000,00</h4>
-                        <button class="pantalones__producto--boton">Ver Producto</button>
-                    </div>
-
-                    <div class="pantalones__producto--div">
-                        <img src="Imagenes/Pantalones/PolleraCargo.png" alt="pollera cargo color beige claro " class="pantalones__producto--img">
-                        <h3 class="pantalones__producto--titulo">Pollera Theodora</h3>
-                        <h4 class="pantalones__producto--precio">$000,00</h4>
-                        <button class="pantalones__producto--boton">Ver Producto</button>
-                    </div>
-
-                    <div class="pantalones__producto--div">
-                        <img src="Imagenes/Pantalones/JeanSkinny.png" alt="jean skinny color azul claro" class="pantalones__producto--img">
-                        <h3 class="pantalones__producto--titulo">Jean Sky</h3>
-                        <h4 class="pantalones__producto--precio">$000,00</h4>
-                        <button class="pantalones__producto--boton">Ver Producto</button>
-                    </div>
-
-                    <div class="pantalones__producto--div">
-                        <img src="Imagenes/Pantalones/JoggerMarron.png" alt="pantalon joggin color marron " class="pantalones__producto--img">
-                        <h3 class="pantalones__producto--titulo">Jogger Caramel</h3>
-                        <h4 class="pantalones__producto--precio">$000,00</h4>
-                        <button class="pantalones__producto--boton"></button>
-                    </div>
-
-                    <div class="pantalones__producto--div">
-                        <img src="Imagenes/Pantalones/ShortJean.png" alt="short de jean color celeste" class="pantalones__producto--img">
-                        <h3 class="pantalones__producto--titulo">Shorts Arizona</h3>
-                        <h4 class="pantalones__producto--precio">$000,00</h4>
-                        <button class="pantalones__producto--boton">Ver Producto</button>
-                    </div>
-
+                        <div class="pantalones__producto--div">
+                            <img src="Imagenes/Pantalones/CargoNegro.png" alt="pantalón cargo negro con costuras blancas" class="pantalones__producto--img">
+                            <h3 class="pantalones__producto--titulo">Jean Cargo Phillip</h3>
+                            <h4 class="pantalones__producto--precio">$000,00</h4>
+                            <button class="pantalones__producto--boton">Ver Producto</button>
+                        </div>
+    
+                        <div class="pantalones__producto--div">
+                            <img src="Imagenes/Pantalones/JeanOxford.png" alt="jean oxford color azul oscuro" class="pantalones__producto--img">
+                            <h3 class="pantalones__producto--titulo">Oxford London</h3>
+                            <h4 class="pantalones__producto--precio">$000,00</h4>
+                            <button class="pantalones__producto--boton">Ver Producto</button>
+                        </div>
+    
+                        <div class="pantalones__producto--div">
+                            <img src="Imagenes/Pantalones/PolleraCargo.png" alt="pollera cargo color beige claro " class="pantalones__producto--img">
+                            <h3 class="pantalones__producto--titulo">Pollera Theodora</h3>
+                            <h4 class="pantalones__producto--precio">$000,00</h4>
+                            <button class="pantalones__producto--boton">Ver Producto</button>
+                        </div>
+    
+                        <div class="pantalones__producto--div">
+                            <img src="Imagenes/Pantalones/JeanSkinny.png" alt="jean skinny color azul claro" class="pantalones__producto--img">
+                            <h3 class="pantalones__producto--titulo">Jean Sky</h3>
+                            <h4 class="pantalones__producto--precio">$000,00</h4>
+                            <button class="pantalones__producto--boton">Ver Producto</button>
+                        </div>
+    
+                        <div class="pantalones__producto--div">
+                            <img src="Imagenes/Pantalones/JoggerMarron.png" alt="pantalon joggin color marron " class="pantalones__producto--img">
+                            <h3 class="pantalones__producto--titulo">Jogger Caramel</h3>
+                            <h4 class="pantalones__producto--precio">$000,00</h4>
+                            <button class="pantalones__producto--boton"></button>
+                        </div>
+    
+                        <div class="pantalones__producto--div">
+                            <img src="Imagenes/Pantalones/ShortJean.png" alt="short de jean color celeste" class="pantalones__producto--img">
+                            <h3 class="pantalones__producto--titulo">Shorts Arizona</h3>
+                            <h4 class="pantalones__producto--precio">$000,00</h4>
+                            <button class="pantalones__producto--boton">Ver Producto</button>
+                        </div>
+                    </section>
+                    <button class="carrusel__flecha carrusel__flecha--derecha">►</button>
                 </section>
+                
             </section>
 
             <!-- Seccion Zapatillas -->
             <section class="zapatillas">
                 <h2 class="zapatillas__titulo"></h2>
+                <section class="carrusel">
+                    <button class="carrusel__flecha carrusel__flecha--izquierda">◄</button>
+                    <section class="zapatillas__galeria">
 
-                <section class="zapatillas__galeria">
-
-                    <div class="zapatillas__producto--div">
-                        <img src="Imagenes/Zapatillas/Zapas-Vans.png" alt="zapatillas negras con detalle blanco" class="zapatillas_producto--img">
-                        <h3 class="zapatillas__producto--titulo">Zapatillas Old Skool</h3>
-                        <h4 class="zapatillas__producto--precio">$000,00</h4>
-                        <button class="zapatillas__producto--boton">Ver Producto</button>
-                    </div>
-
-                    <div class="zapatillas__producto--div">
-                        <img src="Imagenes/Zapatillas/Zapas__Adidas.png" alt="zapatillas blancas con detalles grises" class="zapatillas_producto--img">
-                        <h3 class="zapatillas__producto--titulo">Zapatillas Campus 00s</h3>
-                        <h4 class="zapatillas__producto--precio">$000,00</h4>
-                        <button class="zapatillas__producto--boton">Ver Producto</button>
-                    </div>
-
-                    <div class="zapatillas__producto--div">
-                        <img src="Imagenes/Zapatillas/Borcegos.png" alt="borcegos negros" class="zapatillas_producto--img">
-                        <h3 class="zapatillas__producto--titulo">Borcegos Sasha</h3>
-                        <h4 class="zapatillas__producto--precio">$000,00</h4>
-                        <button class="zapatillas__producto--boton">Ver Producto</button>
-                    </div>
-
-                    <div class="zapatillas__producto--div">
-                        <img src="Imagenes/Zapatillas/Zapas_Converse.png" alt="zapatillas blancas con detalles negros" class="zapatillas_producto--img">
-                        <h3 class="zapatillas__producto--titulo">Zapatillas Taylor Star</h3>
-                        <h4 class="zapatillas__producto--precio">$000,00</h4>
-                        <button class="zapatillas__producto--boton">Ver Producto</button>
-                    </div>
-
-                    <div class="zapatillas__producto--div">
-                        <img src="Imagenes/Zapatillas/Zapas__Rosas.png" alt="zapatillas beige con detalles en rosa " class="zapatillas_producto--img">
-                        <h3 class="zapatillas__producto--titulo">Zapatillas Washed-Coral</h3>
-                        <h4 class="zapatillas__producto--precio">$000,00</h4>
-                        <button class="zapatillas__producto--boton">Ver Producto</button>
-                    </div>
-
-                    <div class="zapatillas__producto--div">
-                        <img src="Imagenes/Zapatillas/Zapato.png" alt="zapato alto color marron " class="zapatillas_producto--img">
-                        <h3 class="zapatillas__producto--titulo">Zapato Jessica</h3>
-                        <h4 class="zapatillas__producto--precio">$000,00</h4>
-                        <button class="zapatillas__producto--boton">Ver Producto</button>
-                    </div>
-
+                        <div class="zapatillas__producto--div">
+                            <img src="Imagenes/Zapatillas/Zapas-Vans.png" alt="zapatillas negras con detalle blanco" class="zapatillas_producto--img">
+                            <h3 class="zapatillas__producto--titulo">Zapatillas Old Skool</h3>
+                            <h4 class="zapatillas__producto--precio">$000,00</h4>
+                            <button class="zapatillas__producto--boton">Ver Producto</button>
+                        </div>
+    
+                        <div class="zapatillas__producto--div">
+                            <img src="Imagenes/Zapatillas/Zapas__Adidas.png" alt="zapatillas blancas con detalles grises" class="zapatillas_producto--img">
+                            <h3 class="zapatillas__producto--titulo">Zapatillas Campus 00s</h3>
+                            <h4 class="zapatillas__producto--precio">$000,00</h4>
+                            <button class="zapatillas__producto--boton">Ver Producto</button>
+                        </div>
+    
+                        <div class="zapatillas__producto--div">
+                            <img src="Imagenes/Zapatillas/Borcegos.png" alt="borcegos negros" class="zapatillas_producto--img">
+                            <h3 class="zapatillas__producto--titulo">Borcegos Sasha</h3>
+                            <h4 class="zapatillas__producto--precio">$000,00</h4>
+                            <button class="zapatillas__producto--boton">Ver Producto</button>
+                        </div>
+    
+                        <div class="zapatillas__producto--div">
+                            <img src="Imagenes/Zapatillas/Zapas_Converse.png" alt="zapatillas blancas con detalles negros" class="zapatillas_producto--img">
+                            <h3 class="zapatillas__producto--titulo">Zapatillas Taylor Star</h3>
+                            <h4 class="zapatillas__producto--precio">$000,00</h4>
+                            <button class="zapatillas__producto--boton">Ver Producto</button>
+                        </div>
+    
+                        <div class="zapatillas__producto--div">
+                            <img src="Imagenes/Zapatillas/Zapas__Rosas.png" alt="zapatillas beige con detalles en rosa " class="zapatillas_producto--img">
+                            <h3 class="zapatillas__producto--titulo">Zapatillas Washed-Coral</h3>
+                            <h4 class="zapatillas__producto--precio">$000,00</h4>
+                            <button class="zapatillas__producto--boton">Ver Producto</button>
+                        </div>
+    
+                        <div class="zapatillas__producto--div">
+                            <img src="Imagenes/Zapatillas/Zapato.png" alt="zapato alto color marron " class="zapatillas_producto--img">
+                            <h3 class="zapatillas__producto--titulo">Zapato Jessica</h3>
+                            <h4 class="zapatillas__producto--precio">$000,00</h4>
+                            <button class="zapatillas__producto--boton">Ver Producto</button>
+                        </div>
+    
+                    </section>
+                    <button class="carrusel__flecha carrusel__flecha--derecha">►</button>
                 </section>
+                
             </section>
 
         </section>

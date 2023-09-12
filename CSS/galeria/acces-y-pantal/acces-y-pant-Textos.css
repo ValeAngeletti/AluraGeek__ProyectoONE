@@ -1,0 +1,8 @@
+.acces__producto--titulo, .remeras__producto--titulo{
+    font-size: 2rem;
+}
+
+.acces__producto--precio, .remeras__producto--precio{
+    padding:1rem;
+    font-size: 1.3rem;
+}

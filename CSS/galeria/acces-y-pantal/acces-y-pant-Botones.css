@@ -26,7 +26,7 @@
 
 
 
-.acces__producto--boton{
+.acces__producto--boton, .remeras__producto--boton{
     font-family: "Philosopher";
     font-size: 1.3rem;
     font-weight: 600;
@@ -42,8 +42,8 @@
 
 
   
-@keyframes acess__producto--boton {
+@keyframes pulse {
     0% {transform: scale(1);}
     50% {transform: scale(1.2);}
     100% {transform: scale(1);}
- }
+}

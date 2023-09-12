@@ -5,7 +5,7 @@
     justify-content: center;
 }
 
-.acces__galeria{
+.acces__galeria,.remeras__galeria {
     display: grid;
     grid-auto-flow: column;
     scroll-behavior: auto;
@@ -17,11 +17,11 @@
     padding: 1rem 1rem 0 1rem;
 }
 
-.acces__galeria::-webkit-scrollbar{
+.acces__galeria::-webkit-scrollbar, .remeras__galeria::-webkit-scrollbar{
     display: none;
 }
 
-.acces__productos--div{
+.acces__productos--div, .remeras__producto--div{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,7 +30,7 @@
     margin:2rem 2rem 2rem 0;
 }
 
-.acce__producto--img{
+.acce__producto--img, .remeras__producto--img{
     width: 20rem;
     height: 20rem;
     margin: 1rem;
