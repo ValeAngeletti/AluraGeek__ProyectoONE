@@ -7,13 +7,13 @@
     border: none;
     border-radius: 5rem;
     background-color: var(--naranja--central);
-    color: var(--fondo--btns-nav);
+    color: var(--color--verdeOscuro);
     position: relative;
 }
 
 .boton__login:hover{
     background:#A2E094;
-    color: var(--fondo--btns-nav);
+    color: var(--color--verdeOscuro);
 }
 
 .boton__login:hover::before{

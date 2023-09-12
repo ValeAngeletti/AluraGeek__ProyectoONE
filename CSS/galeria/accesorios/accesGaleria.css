@@ -1,0 +1,42 @@
+.carrusel{
+    width: 80rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.acces__galeria{
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap:1.2rem;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.acces__galeria::-webkit-scrollbar{
+    display: none;
+}
+
+.acces__productos--div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 20rem;
+    margin:2rem 2rem 2rem 0;
+}
+
+.acce__producto--img{
+    width: 20rem;
+    height: 20rem;
+    margin: 1rem;
+    padding:2rem 1rem;
+    box-shadow: 5px 5px 20px black;
+    background: linear-gradient( #F2C94C , #F2994A );
+    border-radius: 1rem;
+    object-fit: contain;
+}

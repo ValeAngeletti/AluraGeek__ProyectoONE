@@ -19,6 +19,14 @@
         <link rel="stylesheet" href="CSS/banner/bannerFotos.css">
         <link rel="stylesheet" href="CSS/banner/bannerTexto.css">
         <link rel="stylesheet" href="CSS/frase.css">
+        <link rel="stylesheet" href="CSS/galeria/galeriaPrincipal.css">
+        <link rel="stylesheet" href="CSS/galeria/accesorios/accesorios.css">
+        <link rel="stylesheet" href="CSS/galeria/accesorios/accesGaleria.css">
+        <link rel="stylesheet" href="CSS/galeria/accesorios/accesBotones.css">
+        <link rel="stylesheet" href="CSS/galeria/accesorios/accesTextos.css">
+        <link rel="stylesheet" href="CSS/galeria/remeras.css">
+        <link rel="stylesheet" href="CSS/galeria/pantalones.css">
+        <link rel="stylesheet" href="CSS/galeria/zapatos.css">
         <title>AluraComfy</title>
         <link rel="icon" href="Imagenes/perchaVerde.png" type="image/png">
     </head>
@@ -69,55 +77,58 @@
 
         <!-- Seccion categorias -->
         <section class="categorias">
-            <h1 class="categorias__titulo">Crea tu look: </h1>
+            <h1 class="categorias__titulo ">Crea tu look: </h1>
 
             <!-- Seccion Accesorios-->
-            <section class="acces">
+            <section class="acces ">
                 <h2 class="acces__titulo">Accesorios</h2>
-                <section class="acces__galeria">
+                <section class="carrusel">
+                    <button class="carrusel__flecha carrusel__flecha--izquierda">◄</button>
+                    <section class="acces__galeria">
 
-                <div class="acces__productos--div">
-                    <img src="Imagenes/Accesorios/Bandana.png" alt="imagen de bandana roj con detalles blancos " class="acce__producto--img">
-                    <h3 class="acces__producto--titulo">Bandana Rouge</h3>
-                    <h4 class="acces__producto--precio">$000, 00</h4>
-                    <button class="acces__producto--boton">Ver Producto</button>
-                </div>
-
-                <div class="acces__productos--div">
-                    <img src="Imagenes/Accesorios/GorraMarron.png" alt="imagen de una gorra marrón" class="acce__producto--img">
-                    <h3 class="acces__producto--titulo">Gorra Atlanta 47</h3>
-                    <h4 class="acces__producto--precio">$000,00</h4>
-                    <button class="acces__producto--boton">Ver Producto</button>
-                </div>
-
-                <div class="acces__productos--div">
-                    <img src="Imagenes/Accesorios/GorroBlanco.png" alt="imagen de gorro de lana blanco con pompón" class="acce__producto--img">
-                    <h3 class="acces__producto--titulo">Gorro Donna</h3>
-                    <h4 class="acces__producto--precio">$000,00</h4>
-                    <button class="acces__producto--boton">Ver Producto</button>
-                </div>
-
-                <div class="acces__productos--div">
-                    <img src="Imagenes/Accesorios/GorroNegro.png" alt="gorro de lana negro liso" class="acce__producto--img">
-                    <h3 class="acces__producto--titulo">Gorro Beanie</h3>
-                    <h4 class="acces__producto--precio">$000,00</h4>
-                    <button class="acces__producto--boton">Ver Producto</button>
-                </div>
-
-                <div class="acces__productos--div">
-                    <img src="Imagenes/Accesorios/Piluso.png" alt="piluso blanco con manchas negras" class="acce__producto--img">
-                    <h3 class="acces__producto--titulo">Piluso Cow</h3>
-                    <h4 class="acces__producto--precio">$000,00</h4>
-                    <button class="acces__producto--boton">Ver Producto</button>
-                </div>
-
-                <div class="acces__productos--div">
-                    <img src="Imagenes/Accesorios/Turbante.png" alt="turbante marrón con detalles" class="acce__producto--img">
-                    <h3 class="acces__producto--titulo">Turbante Frussia</h3>
-                    <h4 class="acces__producto--precio">$000,00</h4>
-                    <button class="acces__producto--boton">Ver Producto</button>
-                </div>
-
+                        <div class="acces__productos--div">
+                            <img src="Imagenes/Accesorios/Bandana.png" alt="imagen de bandana roj con detalles blancos " class="acce__producto--img">
+                            <h3 class="acces__producto--titulo">Bandana Rouge</h3>
+                            <h4 class="acces__producto--precio">$000, 00</h4>
+                            <button class="acces__producto--boton">Ver Producto</button>
+                        </div>
+    
+                        <div class="acces__productos--div">
+                            <img src="Imagenes/Accesorios/GorraMarron.png" alt="imagen de una gorra marrón" class="acce__producto--img">
+                            <h3 class="acces__producto--titulo">Gorra Atlanta 47</h3>
+                            <h4 class="acces__producto--precio">$000,00</h4>
+                            <button class="acces__producto--boton">Ver Producto</button>
+                        </div>
+    
+                        <div class="acces__productos--div">
+                            <img src="Imagenes/Accesorios/GorroBlanco.png" alt="imagen de gorro de lana blanco con pompón" class="acce__producto--img">
+                            <h3 class="acces__producto--titulo">Gorro Donna</h3>
+                            <h4 class="acces__producto--precio">$000,00</h4>
+                            <button class="acces__producto--boton">Ver Producto</button>
+                        </div>
+    
+                        <div class="acces__productos--div">
+                            <img src="Imagenes/Accesorios/GorroNegro.png" alt="gorro de lana negro liso" class="acce__producto--img">
+                            <h3 class="acces__producto--titulo">Gorro Beanie</h3>
+                            <h4 class="acces__producto--precio">$000,00</h4>
+                            <button class="acces__producto--boton">Ver Producto</button>
+                        </div>
+    
+                        <div class="acces__productos--div">
+                            <img src="Imagenes/Accesorios/Piluso.png" alt="piluso blanco con manchas negras" class="acce__producto--img">
+                            <h3 class="acces__producto--titulo">Piluso Cow</h3>
+                            <h4 class="acces__producto--precio">$000,00</h4>
+                            <button class="acces__producto--boton">Ver Producto</button>
+                        </div>
+    
+                        <div class="acces__productos--div">
+                            <img src="Imagenes/Accesorios/Turbante.png" alt="turbante marrón con detalles" class="acce__producto--img">
+                            <h3 class="acces__producto--titulo">Turbante Frussia</h3>
+                            <h4 class="acces__producto--precio">$000,00</h4>
+                            <button class="acces__producto--boton">Ver Producto</button>
+                        </div>
+                    </section>
+                    <button class="carrusel__flecha carrusel__flecha--derecha">►</button>
                 </section>
             </section>
 
@@ -276,7 +287,7 @@
         </section>
 
         <!-- Contacto -->
-        <section class="contacto">
+        <section class="contacto" style="background: #55754D;">
             <h2 class="contacto__titulo">Hable con nosotros</h2>
             <form name="form" class="contacto__form">
                 <label for="nombre" class="contacto__nombre--label">Nombre</label>
@@ -311,7 +322,7 @@
             <p class="footer__anho">2023</p>
         </section>
 
-       <!-- <script src="JS/efectoBanner.js"></script>-->
+        <script src="JS/flechasGaleria.js"></script>
     </body>
 
 

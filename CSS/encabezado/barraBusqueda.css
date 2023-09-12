@@ -5,7 +5,7 @@
 
 .barra__busqueda{
     display: flex;
-    background-color: var(--color--barraBusqueda);
+    background-color: var(--color--verdeClaro);
     padding: 0.5rem 0.8rem;
     border-radius: 2rem;
 
@@ -17,7 +17,7 @@
     border: none;
     border-radius: 2rem;
     font-size: 1rem;
-    background-color:var(--color--barraBusqueda);
+    background-color:var(--color--verdeClaro);
 
 }
 
@@ -29,7 +29,7 @@
     border: none;
     padding: 0.8rem;
     border-radius: 50%;
-    background-color: var(--fondo--btns-nav);
+    background-color: var(--color--verdeOscuro);
 
 }
 
