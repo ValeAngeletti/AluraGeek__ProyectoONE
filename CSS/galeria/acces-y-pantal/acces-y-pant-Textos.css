@@ -1,8 +1,8 @@
-.acces__producto--titulo, .remeras__producto--titulo{
+.acces__producto--titulo, .remeras__producto--titulo, .pantalones__producto--titulo, .zapatillas__producto--titulo{
     font-size: 2rem;
 }
 
-.acces__producto--precio, .remeras__producto--precio{
+.acces__producto--precio, .remeras__producto--precio,.zapatillas__producto--precio, .pantalones__producto--precio {
     padding:1rem;
     font-size: 1.3rem;
 }
