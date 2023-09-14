@@ -1,0 +1,26 @@
+.contacto{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(var(--color--fondo), var(--color--verdeOscuro));
+    margin: 2rem 0;
+}
+
+.contacto__form{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.contacto__nombre::placeholder{
+    font-family: "Philosopher";
+}
+
+.contacto__mensaje::placeholder{
+    font-family: "Philosopher";
+    
+}
+
+.contacto__boton{
+    font-family: "Philosopher";
+
+}
