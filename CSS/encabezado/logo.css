@@ -2,26 +2,27 @@
     display:flex;
     align-items: center;
     justify-content: space-around;
-    padding: 1rem;
+    margin-top: 0.5rem;
 }
 
 .encabezado__logo{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 10rem;
+    width: 4rem;
     position: relative;
+    height: 4rem;
 }
 
 .logo__aluraComfy{
-    width: 7rem;
+    width: 100%;
     position: absolute;
     z-index: -1;
 }
 
 .encabezado__logo--titulo2, .encabezado__logo--titulo{
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: 100%;
 }
 

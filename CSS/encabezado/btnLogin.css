@@ -1,8 +1,9 @@
 .boton__login{
-    padding: 1.5rem 3rem;
+    width: 6rem;
+    height: 3rem;
     border: none;
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-family: "Philosopher";
     border: none;
     border-radius: 5rem;
@@ -14,6 +15,7 @@
 .boton__login:hover{
     background:#A2E094;
     color: var(--color--verdeOscuro);
+    
 }
 
 .boton__login:hover::before{
