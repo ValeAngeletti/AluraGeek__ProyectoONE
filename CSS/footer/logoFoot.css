@@ -1,0 +1,33 @@
+
+.logo__foot{
+    background-color: var(--color--fondo);
+}
+
+
+.footer__contenedor{
+    background: url(../../Imagenes/percha.png) no-repeat center;
+    background-size: 6rem;
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.logo__aluraComfy--foot{
+    width:8rem;
+}
+
+.encabezado__logo--titulo2--foot, .encabezado__logo--titulo--foot{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.encabezado__logo--titulo--foot{
+    color: var(--naranja--central);
+}
+
+.encabezado__logo--titulo2--foot{
+    color: var(--color--verdeClaro);
+}

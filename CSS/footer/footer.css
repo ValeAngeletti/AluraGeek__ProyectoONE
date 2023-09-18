@@ -1,0 +1,6 @@
+.footer{
+    display: flex;
+    background: var(--naranja--central);
+    align-items: center;
+    justify-content: space-around;
+}

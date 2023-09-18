@@ -29,7 +29,10 @@
         <link rel="stylesheet" href="CSS/galeria/rem-y-zap/rem-y-zap-Textos.css">
         <link rel="stylesheet" href="CSS/galeria/rem-y-zap/rem-y-zap-Botones.css">
         <link rel="stylesheet" href="CSS/galeria/flechas.css">
-        <link rel="stylesheet" href="CSS/contacto.css">
+        <link rel="stylesheet" href="CSS/footer/footer.css">
+        <link rel="stylesheet" href="CSS/footer/logoFoot.css">
+        <link rel="stylesheet" href="CSS/footer/linksFoot.css">
+        <link rel="stylesheet" href="CSS/footer/contactoFoot.css">
         <title>AluraComfy</title>
         <link rel="icon" href="Imagenes/perchaVerde.png" type="image/png">
     </head>
@@ -297,10 +300,31 @@
         </section>
         
         <!-- Contacto -->
-        <section class="contacto">
-            <img src="Imagenes/contactoImg.jpg" alt="telefono vintage color naranja" class="contacto__img">
-            <section class="contacto_-contenido">
-                <h2 class="contacto__titulo">Hable con nosotros</h2>
+        <footer class="footer">
+            <section class="logo__foot">
+                <div class="footer__contenedor">
+                    <h1 class="encabezado__logo--titulo--foot"><span class="resaltar">Alura</span></h1>
+                    <h1 class="encabezado__logo--titulo2--foot"><span class="resaltar">Comfy</span></h1>
+                </div>
+                <!--<img class="logo__aluraComfy--foot" src="Imagenes/percha.png" alt="icono de percha negra">-->
+            </section>
+            
+            <section class="links">
+                <div class="contenedor__links">
+                    <ul class="lista__links">
+                        <li class="lista__links--items"><a href="#">Quienes somos</a></li>
+                        <li class="lista__links--items"><a href="#">Política de privacidad</a></li>
+                        <li class="lista__links--items"><a href="#">Programa de fidelidad</a></li>
+                        <li class="lista__links--items"><a href="#">Nuestras Tiendas</a></li>
+                        <li class="lista__links--items"><a href="#">Quiero ser franquiciado</a></li>
+                        <li class="lista__links--items"><a href="#">Anuncie aquí</a></li>
+                    </ul>
+                </div>
+            
+            </section>
+
+            <section class="contacto__contenido">
+                <h2 class="contacto__subtitulo">Hable con nosotros</h2>
                 <form name="form" class="contacto__form">
                     <label for="nombre" class="contacto__nombre--label">Nombre</label>
                     <input type="text" class="contacto__nombre" name="nombre" placeholder="Andrés Lisboa">
@@ -308,32 +332,21 @@
                     <button class="contacto__boton">Enviar mensaje</button>
                 </form>
             </section>
+        </footer>
+            
             
         </section>
 
         <!-- Links final -->
-        <section class="links">
-            <img src="Imagenes/Logo__AluraComfy.png" alt="logo de alura comfy" class="links--img">
-            <div class="contenedor__links">
-                <ul class="lista__links">
-                    <li class="lista__links--items"><a href="#">Quienes somos</a></li>
-                    <li class="lista__links--items"><a href="#">Política de privacidad</a></li>
-                    <li class="lista__links--items"><a href="#">Programa de fidelidad</a></li>
-                    <li class="lista__links--items"><a href="#">Nuestras Tiendas</a></li>
-                    <li class="lista__links--items"><a href="#">Quiero ser franquiciado</a></li>
-                    <li class="lista__links--items"><a href="#">Anuncie aquí</a></li>
-                </ul>
-            </div>
-            
-        </section>
+        
         
         <!-- Footer -->
-        <section class="footer">
-            <div class="footer__div">
-                <img src="" alt="icono de copyright" class="footer__img">
-                <p class="footer__descripcion">Desarrollado por Valentina Angeletti</p>
+        <section class="pie">
+            <div class="pie__div">
+                <img src="" alt="icono de copyright" class="pie__img">
+                <p class="pie__descripcion">Desarrollado por Valentina Angeletti</p>
             </div>
-            <p class="footer__anho">2023</p>
+            <p class="pie__anho">2023</p>
         </section>
 
         <script src="JS/flechasGaleria.js"></script>
