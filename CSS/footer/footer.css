@@ -3,4 +3,5 @@
     background: var(--naranja--central);
     align-items: center;
     justify-content: space-around;
+    margin-top: 2rem;
 }

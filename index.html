@@ -310,7 +310,6 @@
             </section>
             
             <section class="links">
-                <div class="contenedor__links">
                     <ul class="lista__links">
                         <li class="lista__links--items"><a href="#">Quienes somos</a></li>
                         <li class="lista__links--items"><a href="#">Política de privacidad</a></li>
@@ -319,17 +318,17 @@
                         <li class="lista__links--items"><a href="#">Quiero ser franquiciado</a></li>
                         <li class="lista__links--items"><a href="#">Anuncie aquí</a></li>
                     </ul>
-                </div>
-            
             </section>
 
             <section class="contacto__contenido">
-                <h2 class="contacto__subtitulo">Hable con nosotros</h2>
+                <h2 class="contacto__titulo">Hable con nosotros</h2>
                 <form name="form" class="contacto__form">
-                    <label for="nombre" class="contacto__nombre--label">Nombre</label>
-                    <input type="text" class="contacto__nombre" name="nombre" placeholder="Andrés Lisboa">
+                    <div class="div__input--nombre">
+                        <label for="nombre" class="contacto__nombre--label">Nombre:</label>
+                        <input type="text" class="contacto__nombre" name="nombre" placeholder="Andrés Lisboa">
+                    </div>
                     <textarea name="" id="" cols="40" rows="5" class="contacto__mensaje" placeholder="Escribe tu mensaje"></textarea>
-                    <button class="contacto__boton">Enviar mensaje</button>
+                    <button class="contacto__boton pulse">Enviar mensaje</button>
                 </form>
             </section>
         </footer>
