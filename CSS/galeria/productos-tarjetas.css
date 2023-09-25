@@ -31,18 +31,14 @@
     margin:2rem 2rem 2rem 0;
 }
 
-.acce__producto--img, .pantalones__producto--img{
+.acce__producto--img, .pantalones__producto--img,.zapatillas__producto--img, .remeras__producto--img{
     width: 20rem;
     height: 20rem;
     margin: 1rem;
     padding:2rem 1rem;
     box-shadow: 5px 5px 20px black;
-    background: linear-gradient( #FBAF4C , #FE943E);
+    background: linear-gradient( var(--color--verdeClaro), #a1f092);
     border-radius: 1rem;
     object-fit: contain;
 }
 
-.pantalones__producto--img{
-    background: linear-gradient( #C0C96B, #E7D764);
-
-}

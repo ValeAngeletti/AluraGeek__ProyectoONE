@@ -1,10 +1,14 @@
 :root{
     --color--fondo: #82B577;
-    --color--verdeClaro: #CDFFC2;
-    --color--verdeOscuro:#21331D;
+    --color--verdeBlanco:#D5E8D1;
+    --color--verdeClaro: #B0D5A8;
+    --color--verdeIntermedio: #5B984E;
+    --color--verdeOscuro:#3C7B2F;
     --naranja--central:#FF8939;
     --color--final--contacto:#55754D;
-    --fondo--inputs: rgb(248, 235, 212);
+    --color--verdeFuerte:#4EFF21;
+    --texto--negro:#080808;
+    --texto--blanco: #F7F7F7;
 }
 
 *{

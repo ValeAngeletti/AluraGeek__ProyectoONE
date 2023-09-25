@@ -1,0 +1,14 @@
+.lista__links{
+    display: flex;
+    flex-direction: column;
+}
+
+.lista__links--items{
+    margin-top: 2rem ;
+    font-size: 1.2rem;
+}
+
+.lista__links--items a{
+    text-decoration: none;
+    color: var(--texto--blanco);
+}

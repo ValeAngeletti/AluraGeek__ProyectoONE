@@ -1,0 +1,21 @@
+.pie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem 0;
+    font-weight: 600;
+}
+
+.pie__div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.7rem;
+}
+
+.pie__div img{
+    width: 1.7rem;
+    height: auto;
+    margin-right: 1rem;
+}

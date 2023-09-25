@@ -6,3 +6,13 @@
     padding:1rem;
     font-size: 1.3rem;
 }
+
+.remeras__titulo, .zapatillas__titulo, .acces__titulo, .pantalones__titulo{
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 2.3rem;
+    overflow: hidden;
+    font-style: italic;
+    margin-top:2rem ;
+    text-align:center;
+}

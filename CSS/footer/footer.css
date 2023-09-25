@@ -1,7 +1,6 @@
 .footer{
     display: flex;
-    background: var(--naranja--central);
+    background: var(--color--verdeOscuro);
     align-items: center;
     justify-content: space-around;
-    margin-top: 2rem;
 }

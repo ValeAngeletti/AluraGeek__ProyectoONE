@@ -10,7 +10,7 @@
 .banner__titulo{
     margin-bottom: 10rem;
     font-size: 5rem;
-    color: var(--naranja--central)
+    color: var(--color--verdeFuerte)
 }
 
 .banner__subtitulo{
@@ -26,16 +26,16 @@
     font-family: "Philosopher";
     margin-top: 2rem;
     padding: 0.8rem;
-    background-color: var(--naranja--central);
+    background-color: var(--color--verdeOscuro);
     border: none;
     border-radius: 40rem;
     font-weight: bold;
-    color: var(--color--verdeOscuro);
+    color: var(--texto--blanco);
 }
 
 .banner__boton:hover{
     background:#A2E094;
-    color: var(--color--verdeOscuro);
+    color: var(--texto--negro);
     box-shadow: 5px 0px 30px white;
 
 }
@@ -66,7 +66,7 @@
 }
 
 .pulse:hover{
-    background-color: var(--naranja--central);
+    background-color: var(--color--verdeFuerte);
 }
   
 @keyframes pulse {

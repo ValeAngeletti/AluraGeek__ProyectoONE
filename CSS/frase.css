@@ -3,6 +3,9 @@
     justify-content: center;
     align-items: center;
     padding: 5rem;
+    background-color: var(--color--verdeIntermedio);
+    color: var(--texto--blanco);
+    text-shadow: 5px 5px 10px var(--texto--negro);
 }
 
 .frase__texto{

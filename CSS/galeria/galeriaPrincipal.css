@@ -1,35 +1,13 @@
 .categorias{
-    background: linear-gradient(#FF8939, #CDFFC2, #55754D);
+    background: linear-gradient(var(--color--verdeIntermedio), var(--color--verdeClaro));
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-top: 4rem;
     border-top: 1px dashed black;
+    margin-bottom: 2rem;
 }
 
-.categorias__titulo{
-    text-align: center;
-    font-size: 3rem;
-    color: var(--color--verdeClaro);
-    -webkit-animation: text-shadow-drop-right 0.8s infinite both;
-	        animation: text-shadow-drop-right 0.8s infinite both;
-}
 
-@-webkit-keyframes text-shadow-drop-right {
-    0% {
-      text-shadow: 0 0 0 black;
-    }
-    100% {
-      text-shadow: 6px 0 30px black;
-    }
-}
-@keyframes text-shadow-drop-right {
-    0% {
-      text-shadow: 0 0 0 black;
-    }
-    100% {
-      text-shadow: 6px 0 30px black;
-    }
-}
   

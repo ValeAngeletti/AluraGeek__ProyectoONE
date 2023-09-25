@@ -1,5 +1,5 @@
 .banner {
-    background-color: var(--color--fondo);
+    background-color: var(--color--verdeClaro);
     display: flex;
     flex-direction: column;
 }
